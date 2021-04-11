@@ -136,7 +136,7 @@ def forget():
 			</html>
 			""", subtype='html')
 		with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-			smtp.login('yaswanthmogili543@gmail.com', 'fwzqgcsepmrmcodh')
+			smtp.login('yaswanthmogili543@gmail.com', '******')
 			smtp.send_message(msg)
 		return redirect(url_for('login'))
 
